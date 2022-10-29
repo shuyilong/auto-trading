@@ -5,7 +5,7 @@ Auto-Trading Robot With RL And GA
 ### 1.1 Data Structure
   我们用的是纽交所的股票高频数据，每有一次订单的提交都会产生一行数据，每一行数据都有现在的最佳bid和最佳ask，这两个价格作为成交价。在任何一个成交价之前的历史数据是可得的。我们以1/5分钟的数据作为最小的window。
 
-###1.2 Data Clean
+### 1.2 Data Clean
   1. 我们的trading robot只能从历史价格变动信息中去学习如何做交易，所以没有办法获得盘外信息，为此我们把隔夜信息去掉，所以每天开盘后的15分钟和收盘前的15分钟不进行交易，也不获取信息。
   2. 我们参考【Terrence Hendershott, & Pamela C. Moulton (2011).】的方法进行数据清洗：
     (i) Eliminate records beyond the exchange opening time from 9:30 am to 4 pm; 
