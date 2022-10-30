@@ -15,6 +15,9 @@ Auto-Trading Robot With RL And GA
    3. 计算了indicator后，仍然要对indicator进行winsorization 和 normalization。
 
 ## 2. Indicator Selection
-  我们一共有三种类型的指标：窗口内量价指标；窗口内微观结构指标；长期指标（指上一个交易日）；
+  我们一共有三种类型的指标：窗口内量价指标；窗口内微观结构指标；长期指标（指上一个交易日）；这部分我们需要参考很多文献
   
 ### 2. 窗口内量价指标
+  1. 首先是Dr Zhang文献里面的这几种基础的；
+  ![image](https://user-images.githubusercontent.com/116972226/198862529-11dbe9e2-c7f1-49bb-99f9-dfd92117102b.png)
+  2. 
