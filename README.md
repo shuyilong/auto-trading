@@ -7,7 +7,7 @@ Auto-Trading Robot With RL And GA
 
 ### 1.2 Data Clean
   1. 我们的trading robot只能从历史价格变动信息中去学习如何做交易，所以没有办法获得盘外信息，为此我们把隔夜信息去掉，所以每天开盘后的15分钟和收盘前的15分钟不进行交易，也不获取信息。
-  2. 我们参考【Terrence Hendershott, & Pamela C. Moulton (2011).】的方法进行数据清洗：
+  2. 我们参考【Terrence Hendershott, & Pamela C. Moulton (2011).】的方法进行数据清洗：  
     (i) Eliminate records beyond the exchange opening time from 9:30 am to 4 pm;   
     (ii) Eliminate quotes with negative price or size or with bid price greater than ask price;   
     (iii) Eliminate trades with zero quantities;   
